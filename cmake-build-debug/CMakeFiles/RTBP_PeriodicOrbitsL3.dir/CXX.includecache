@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/orbit.cpp
+orbit.h
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/orbit.h
+
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/orbit.h
+

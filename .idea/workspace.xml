@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RTBP_PeriodicOrbitsL3" targetName="RTBP_PeriodicOrbitsL3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6faa28cf-885d-4183-9f2f-1133037a425b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="RTBP_PeriodicOrbitsL3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V3vKiNCyFsdmAPE1EM3mj7SMab" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.RTBP_PeriodicOrbitsL3">
+    <configuration name="RTBP_PeriodicOrbitsL3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RTBP_PeriodicOrbitsL3" TARGET_NAME="RTBP_PeriodicOrbitsL3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RTBP_PeriodicOrbitsL3" RUN_TARGET_NAME="RTBP_PeriodicOrbitsL3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="plotAss11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RTBP_PeriodicOrbitsL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Plotting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plotting/plotAss11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.RTBP_PeriodicOrbitsL3" />
+      <item itemvalue="Python.plotAss11" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plotAss11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6faa28cf-885d-4183-9f2f-1133037a425b" name="Default Changelist" comment="" />
+      <created>1576494530594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576494530594</updated>
+      <workItem from="1576494536315" duration="95000" />
+      <workItem from="1576494646554" duration="647000" />
+      <workItem from="1576495309607" duration="33583000" />
+      <workItem from="1576665976529" duration="2414000" />
+      <workItem from="1576672910781" duration="1207000" />
+      <workItem from="1576756691582" duration="14000" />
+      <workItem from="1576756723862" duration="177000" />
+      <workItem from="1576756915620" duration="26000" />
+      <workItem from="1576757163279" duration="8000" />
+      <workItem from="1576757288096" duration="29000" />
+      <workItem from="1576851209088" duration="47763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2409" y="187" key="#Inspections" timestamp="1577106827822">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="559" y="186" key="#Inspections/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1576660640215" />
+    <state x="2409" y="187" key="#Inspections/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106827822" />
+    <state x="2499" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577113252907">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2499" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113252907" />
+    <state x="2497" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576575334575">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2497" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576575334575" />
+    <state x="665" y="116" key="#plotAss11" timestamp="1576660755864">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="665" y="116" key="#plotAss11/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1576660755864" />
+    <state width="1634" height="341" key="GridCell.Tab.0.bottom" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
+    <state width="1634" height="341" key="GridCell.Tab.0.center" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="284" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
+    <state width="1634" height="341" key="GridCell.Tab.0.left" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="284" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
+    <state width="1634" height="341" key="GridCell.Tab.0.right" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="284" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
+    <state width="1634" height="341" key="GridCell.Tab.1.bottom" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
+    <state width="1634" height="341" key="GridCell.Tab.1.center" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="341" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
+    <state width="1634" height="341" key="GridCell.Tab.1.left" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="341" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
+    <state width="1634" height="341" key="GridCell.Tab.1.right" timestamp="1577435228610">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1634" height="341" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
+    <state width="1634" height="341" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
+    <state x="2041" y="172" key="SettingsEditor" timestamp="1576851281897">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2041" y="172" key="SettingsEditor/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576851281897" />
+    <state x="138" y="171" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1576672729926" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1576494992304">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576494992304" />
+    <state x="2413" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1576851210326">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2413" y="451" key="com.intellij.ide.util.TipDialog/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576851210326" />
+    <state x="623" y="239" key="run.anything.popup" timestamp="1576620117591">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="623" y="239" key="run.anything.popup/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576620117591" />
+    <state x="2423" y="224" width="672" height="678" key="search.everywhere.popup" timestamp="1576494987687">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2423" y="224" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576494987687" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="M.n" />
+        <watch expression="M.n" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

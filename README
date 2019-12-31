@@ -1,0 +1,36 @@
+
+C package for solving the Reduced Three Body Problem (RTBP)
+Author: Jordi Manyer Fuertes
+Date : December 2019
+
+
+REQUIREMENTS:
+For the C code:
+    - cmake 3.15 or newer
+    - gcc
+    - GSL (Gnu Scientific Library) correctly installed.
+For the python scripts:
+    - python3
+    - py3 libraries: matplotlib, numpy, csv
+
+
+USAGE:
+- Compile using the CMake file CMakeLists.txt
+- Run the code, the outputs will be created at cmake-build-debug/.out
+- Run the python3 scripts to plot the results
+
+
+CONTENT:
+A) main.c     --> Main file, used to call all other subroutines.
+                  Contains the main() function, and other routines specific to the different
+                  assignments. The assignment routines should be called by main(), allowing
+                  many specific assignments to be executed at the same time.
+
+B) myHeader.h --> Main header, which declares all functions in /src and all the structures needed.
+
+C) /src       --> Contains the rtbp library, written in c. The integration functions, located in
+                  rtbp.c and rtbp_variationals.c are created using the package Taylor
+                  (http://www.maia.ub.es/~angel/taylor/).
+
+D) /Plotting  --> Contains python routines to produce the plots needed. They read the data from the
+                  '.out' files created by the C routines.

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/myHeader.h
+src/taylor.h
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/taylor.h
+math.h
+-
+gsl/gsl_math.h
+-
+gsl/gsl_matrix.h
+-
+gsl/gsl_eigen.h
+-
+gsl/gsl_complex.h
+-
+gsl/gsl_complex_math.h
+-
+
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c
+../myHeader.h
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/myHeader.h
+
+/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/taylor.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
