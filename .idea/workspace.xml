@@ -11,7 +11,59 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faa28cf-885d-4183-9f2f-1133037a425b" name="Default Changelist" comment="" />
+    <list default="true" id="6faa28cf-885d-4183-9f2f-1133037a425b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Figures/hills1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figures/hills2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plotting/HillsRegions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plotting/plotAss13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poincare.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HillsRegions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/orbit.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RTBP_PeriodicOrbitsL3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RTBP_PeriodicOrbitsL3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RTBP_PeriodicOrbitsL3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RTBP_PeriodicOrbitsL3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myHeader.h" beforeDir="false" afterPath="$PROJECT_DIR$/myHeader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hillsRegions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/orbitIntegration.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/orbitIntegration.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poincareSections.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/poincareSections.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +97,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V3vKiNCyFsdmAPE1EM3mj7SMab" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,13 +113,16 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Plotting" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -135,11 +196,21 @@
       <workItem from="1576757163279" duration="8000" />
       <workItem from="1576757288096" duration="29000" />
       <workItem from="1576851209088" duration="47763000" />
+      <workItem from="1577789226630" duration="1562000" />
+      <workItem from="1577794138424" duration="677000" />
+      <workItem from="1577813231183" duration="1005000" />
+      <workItem from="1577814674879" duration="389000" />
+      <workItem from="1578829416747" duration="3287000" />
+      <workItem from="1579185853957" duration="90000" />
+      <workItem from="1579950357150" duration="12260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2409" y="187" key="#Inspections" timestamp="1577106827822">
@@ -159,59 +230,72 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="665" y="116" key="#plotAss11/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1576660755864" />
-    <state width="1634" height="341" key="GridCell.Tab.0.bottom" timestamp="1577435228610">
+    <state x="744" y="280" key="FileChooserDialogImpl" timestamp="1579185942420">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="744" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1579185942420" />
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
-    <state width="1634" height="341" key="GridCell.Tab.0.center" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="284" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
-    <state width="1634" height="341" key="GridCell.Tab.0.left" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="284" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
-    <state width="1634" height="341" key="GridCell.Tab.0.right" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="284" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577113166428" />
-    <state width="1634" height="341" key="GridCell.Tab.1.bottom" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
-    <state width="1634" height="341" key="GridCell.Tab.1.center" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="341" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
-    <state width="1634" height="341" key="GridCell.Tab.1.left" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="341" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
-    <state width="1634" height="341" key="GridCell.Tab.1.right" timestamp="1577435228610">
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1579980612432">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1634" height="341" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1680.1050@0.0.1920.1044" timestamp="1577435228610" />
     <state width="1634" height="341" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1577106263903" />
-    <state x="2041" y="172" key="SettingsEditor" timestamp="1576851281897">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579980612432" />
+    <state x="138" y="171" key="SettingsEditor" timestamp="1579978175176">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="2041" y="172" key="SettingsEditor/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576851281897" />
-    <state x="138" y="171" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1576672729926" />
+    <state x="138" y="171" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1579978175176" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1576494992304">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576494992304" />
-    <state x="2413" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1576851210326">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state x="563" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1579185854620">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="2413" y="451" key="com.intellij.ide.util.TipDialog/0.0.1920.1044/1920.0.1680.1050@1920.0.1680.1050" timestamp="1576851210326" />
+    <state x="563" y="448" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1579185854620" />
     <state x="623" y="239" key="run.anything.popup" timestamp="1576620117591">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

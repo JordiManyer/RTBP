@@ -1,3 +1,3 @@
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir
+/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/edit_cache.dir

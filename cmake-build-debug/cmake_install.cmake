@@ -1,4 +1,4 @@
-# Install script for directory: /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3
+# Install script for directory: /home/jordi/CLionProjects/NMDS_RTBP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

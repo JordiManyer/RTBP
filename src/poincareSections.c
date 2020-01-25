@@ -12,3 +12,7 @@ double yequalzero(double *x){
 double xequalvalue(double *x){
     return x[0] - PoincareValue;
 }
+
+double xprimeequalzero(double *x){
+    return x[2];
+}

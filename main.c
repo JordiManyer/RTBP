@@ -11,6 +11,7 @@ const int verbose = 0;
 
 double PoincareValue;
 MY_FLOAT mu;                     // Global variable mu
+double PCTol = 5.e-12; // Tolerance for the PC timestep
 
 // DIFFERENT PREPARED ROUTINES:
 void demo();
@@ -22,7 +23,7 @@ void Assignment13();
 int main(int argc, char **argv)
 {
     //demo();
-    Assignment12();
+    Assignment13();
     exit(0);
 }
 
@@ -229,6 +230,64 @@ void Assignment12(){
     printf("Done with asignment 12!!!.\n");
 }
 
+// --------------------------------------------------------
+// ASSIGNEMENT 13
 void Assignment13(){
+    FILE *fptr;
+    double (*event)(double*);
+    int nIC = 300; double p0[4];
+    double y0_prime[nIC];
 
+    // Allocate orbit
+    int nPoints = 300; Orbit orb;
+    double t[nPoints] , x[nPoints] , y[nPoints], xp[nPoints], yp[nPoints];
+    orb.nt = nPoints; orb.t = t; orb.x1 = x; orb.x2 = y; orb.x3 = xp; orb.x4 = yp;
+
+    // Problem parameters
+    mu = 0.1;
+
+    /** 1) Poincaré map with:
+           - Init Conds -> (0 , 0 , 0 , y' < 0)
+           - Sigma = { x' = 0 ; y' < 0 } **/
+    printf("Computing Poincaré map for y' < 0 \n");
+    // Initial conditions
+    event = xprimeequalzero;
+    for (int i = 0; i < nIC; ++i) {
+        y0_prime[i] = -0.001 - (5.0-0.01)*((double)i)/((double)(nIC-1));
+        printf("%g , " , y0_prime[i]);
+    }
+    printf("\n");
+
+    // Compute and output orbit
+    fptr = fopen("Ass13.out1","w");
+    fprintf(fptr , "%d \n" , nIC);
+    for (int i = 0 ; i < nIC ; ++i) {
+        printf("%d \n ", i);
+        p0[0] = 0; p0[1] = 0; p0[2] = 0; p0[3] = y0_prime[i];
+        computeOrbitPoincare(orb, p0 , 0.0 , nPoints , 1 , event);
+        tofileOrbit(fptr , orb);
+    }
+    fclose(fptr);
+
+    /** 2) Poincaré map with:
+           - Init Conds -> (0 , 0 , 0 , y' > 0)
+           - Sigma = { x' = 0 ; y' > 0 } **/
+    printf("Computing Poincaré map for y' > 0 \n");
+    // Initial conditions
+    for (int i = 0; i < nIC; ++i) {
+        y0_prime[i] = 0.01 + (5.0-0.01)*((double)i)/((double)(nIC-1));
+        printf("%g , " , y0_prime[i]);
+    }
+    printf("\n");
+
+    // Compute and output orbit
+    fptr = fopen("Ass13.out2","w");
+    fprintf(fptr , "%d \n" , nIC);
+    for (int i = 0 ; i < nIC ; ++i) {
+        printf("%d \n ", i);
+        p0[0] = 0; p0[1] = 0; p0[2] = 0; p0[3] = y0_prime[i];
+        computeOrbitPoincare(orb, p0 , 0.0 , nPoints , 1 , event);
+        tofileOrbit(fptr , orb);
+    }
+    fclose(fptr);
 }

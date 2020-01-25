@@ -13,13 +13,13 @@ CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o: ../myHeader.h
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o: ../src/equPoints.c
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o: ../src/taylor.h
 
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o: ../myHeader.h
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o: ../src/hillsRegions.c
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o: ../src/taylor.h
-
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o: ../myHeader.h
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o: ../src/orbitIntegration.c
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o: ../src/taylor.h
+
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o: ../myHeader.h
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o: ../src/poincare.c
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o: ../src/taylor.h
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o: ../myHeader.h
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o: ../src/poincareSections.c

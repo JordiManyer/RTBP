@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/main.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/IOmodule.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/equPoints.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/orbitIntegration.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/poincareSections.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbpEqs.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp_variationals.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/stability.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o"
-  "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/symmetricPeriodicOrbits.c" "/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/main.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/IOmodule.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/equPoints.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/orbitIntegration.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/poincare.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/poincareSections.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/rtbp.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/rtbpEqs.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/rtbp_variationals.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/stability.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o"
+  "/home/jordi/CLionProjects/NMDS_RTBP/src/symmetricPeriodicOrbits.c" "/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

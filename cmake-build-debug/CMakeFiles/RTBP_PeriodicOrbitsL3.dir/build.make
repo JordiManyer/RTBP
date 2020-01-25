@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3
+CMAKE_SOURCE_DIR = /home/jordi/CLionProjects/NMDS_RTBP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend.make
@@ -59,146 +59,146 @@ include CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/main.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/main.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/main.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/main.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/main.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/main.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o: ../src/equPoints.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/equPoints.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/equPoints.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/equPoints.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/equPoints.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/equPoints.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/equPoints.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o: ../src/orbitIntegration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/orbitIntegration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/orbitIntegration.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/orbitIntegration.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/orbitIntegration.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/orbitIntegration.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/orbitIntegration.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o: ../src/IOmodule.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/IOmodule.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/IOmodule.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/IOmodule.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/IOmodule.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/IOmodule.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/IOmodule.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/IOmodule.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o: ../src/poincareSections.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/poincareSections.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/poincareSections.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/poincareSections.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/poincareSections.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/poincareSections.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/poincareSections.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincareSections.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o: ../src/symmetricPeriodicOrbits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/symmetricPeriodicOrbits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/symmetricPeriodicOrbits.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/symmetricPeriodicOrbits.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/symmetricPeriodicOrbits.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/symmetricPeriodicOrbits.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/symmetricPeriodicOrbits.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/symmetricPeriodicOrbits.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o: ../src/rtbpEqs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbpEqs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/rtbpEqs.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbpEqs.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/rtbpEqs.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbpEqs.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/rtbpEqs.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o: ../src/rtbp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o: ../src/rtbp_variationals.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp_variationals.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp_variationals.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp_variationals.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp_variationals.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/rtbp_variationals.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/rtbp_variationals.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.s
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o: ../src/stability.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/stability.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/stability.c
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/stability.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/stability.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.i
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/stability.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/stability.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.s
 
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o: ../src/hillsRegions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o   -c /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/flags.make
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o: ../src/poincare.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o   -c /home/jordi/CLionProjects/NMDS_RTBP/src/poincare.c
 
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.i
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jordi/CLionProjects/NMDS_RTBP/src/poincare.c > CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.i
 
-CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.s
+CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jordi/CLionProjects/NMDS_RTBP/src/poincare.c -o CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.s
 
 # Object files for target RTBP_PeriodicOrbitsL3
 RTBP_PeriodicOrbitsL3_OBJECTS = \
@@ -212,7 +212,7 @@ RTBP_PeriodicOrbitsL3_OBJECTS = \
 "CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o" \
 "CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o" \
 "CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o" \
-"CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o"
+"CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o"
 
 # External object files for target RTBP_PeriodicOrbitsL3
 RTBP_PeriodicOrbitsL3_EXTERNAL_OBJECTS =
@@ -227,10 +227,10 @@ RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbpEqs.c.o
 RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp.c.o
 RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/rtbp_variationals.c.o
 RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/stability.c.o
-RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o
+RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o
 RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make
 RTBP_PeriodicOrbitsL3: CMakeFiles/RTBP_PeriodicOrbitsL3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable RTBP_PeriodicOrbitsL3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable RTBP_PeriodicOrbitsL3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RTBP_PeriodicOrbitsL3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/RTBP_PeriodicOrbitsL3.dir/clean:
 .PHONY : CMakeFiles/RTBP_PeriodicOrbitsL3.dir/clean
 
 CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend:
-	cd /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3 /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3 /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jordi/CLionProjects/NMDS_RTBP /home/jordi/CLionProjects/NMDS_RTBP /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/RTBP_PeriodicOrbitsL3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RTBP_PeriodicOrbitsL3.dir/depend
 

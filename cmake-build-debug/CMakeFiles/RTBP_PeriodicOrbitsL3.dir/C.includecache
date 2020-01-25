@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/myHeader.h
+/home/jordi/CLionProjects/NMDS_RTBP/main.c
+myHeader.h
+/home/jordi/CLionProjects/NMDS_RTBP/myHeader.h
+
+/home/jordi/CLionProjects/NMDS_RTBP/myHeader.h
 src/taylor.h
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/taylor.h
+/home/jordi/CLionProjects/NMDS_RTBP/src/taylor.h
 math.h
 -
 gsl/gsl_math.h
@@ -22,11 +26,7 @@ gsl/gsl_complex.h
 gsl/gsl_complex_math.h
 -
 
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/hillsRegions.c
-../myHeader.h
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/myHeader.h
-
-/home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/src/taylor.h
+/home/jordi/CLionProjects/NMDS_RTBP/src/taylor.h
 math.h
 -
 stdio.h

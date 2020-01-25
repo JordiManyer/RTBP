@@ -13,9 +13,10 @@
 #include <gsl/gsl_complex_math.h>
 
 // GLOBAL PARAMETERS:
-extern const int verbose;
-extern const int orbitMaxLength;
-extern double PoincareValue;
+extern const int verbose; // Different levels of debug output
+extern const int orbitMaxLength; // Maximum lengths of the orbits
+extern double PoincareValue; // Parameter for the PC section functions
+extern double PCTol; // Tolerance for the PC timestep
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -68,12 +69,18 @@ typedef struct orbit_var Orbit_Var;
 /*****************************************************************************/
 
 struct hill_region{
-    double C;
     int n;
     double* x;
     double* y;
 };
 typedef struct hill_region HR;
+
+struct hill_region_vector{
+    double C;
+    int m;
+    HR* regions;
+};
+typedef struct hill_region_vector HRVec;
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -86,14 +93,20 @@ MY_FLOAT solveL3(MY_FLOAT mu , double tol); // finds the equilibrium point L3
 
 // orbitIntegration.c
 Orbit computeOrbit(double* x0 , double tstart , double tend , double tstep , int dir); // computes an Orbit of the rtbp
-Point computePoincare(double* x0 , double tstart , int dir , double (*event)(double*), int nCrossings); // computes the poincaré map of the rtbp
 void computeOrbitNpoints(Orbit orb, double* x0 , double tstart , double tend , int nPoints , int dir); // computes an Orbit of the rtbp ensuring nPoints orbit points.
 void computeVariationalsNpoints(Orbit_Var orb, double* x0 , double tstart , double tend , int nPoints , int dir);
 
+
+// poincare.c
+Point computePoincare(double* x0 , double tstart , int dir , double (*event)(double*), int nCrossings); // computes the poincaré map of the rtbp
+void computeOrbitPoincare(Orbit orb, double* x0 , double tstart , int nPoints , int dir , double (*event)(double*)); // computes the Poincaré map orbit
+
+
 // poincareSections.c, stopping conditions for computePoincare
-double xequalzero(double *x); // Stop condition x==0
-double yequalzero(double *x); // Stop condition y==0
-double xequalvalue(double *x);// Stop condition x==PoincareValue
+double xequalzero(double *x);      // Stop condition x==0
+double yequalzero(double *x);      // Stop condition y==0
+double xequalvalue(double *x);     // Stop condition x==PoincareValue
+double xprimeequalzero(double *x); // Stop condition x'==0
 
 // symmetricPeriodicOrbits.c
 double findSymmetricPO(double C , double x0, double xstep); // Finds symmetric periodic orbits around an equilibrium point.

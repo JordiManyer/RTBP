@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3
+CMAKE_SOURCE_DIR = /home/jordi/CLionProjects/NMDS_RTBP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/bscuser/bin/clion-2019.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/jordi/bin/clion-2019.3.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bscuser/CLionProjects/RTBP_PeriodicOrbitsL3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordi/CLionProjects/NMDS_RTBP/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,33 +204,6 @@ src/equPoints.c.s:
 	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/equPoints.c.s
 .PHONY : src/equPoints.c.s
 
-src/hillsRegions.o: src/hillsRegions.c.o
-
-.PHONY : src/hillsRegions.o
-
-# target to build an object file
-src/hillsRegions.c.o:
-	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.o
-.PHONY : src/hillsRegions.c.o
-
-src/hillsRegions.i: src/hillsRegions.c.i
-
-.PHONY : src/hillsRegions.i
-
-# target to preprocess a source file
-src/hillsRegions.c.i:
-	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.i
-.PHONY : src/hillsRegions.c.i
-
-src/hillsRegions.s: src/hillsRegions.c.s
-
-.PHONY : src/hillsRegions.s
-
-# target to generate assembly for a file
-src/hillsRegions.c.s:
-	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/hillsRegions.c.s
-.PHONY : src/hillsRegions.c.s
-
 src/orbitIntegration.o: src/orbitIntegration.c.o
 
 .PHONY : src/orbitIntegration.o
@@ -257,6 +230,33 @@ src/orbitIntegration.s: src/orbitIntegration.c.s
 src/orbitIntegration.c.s:
 	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/orbitIntegration.c.s
 .PHONY : src/orbitIntegration.c.s
+
+src/poincare.o: src/poincare.c.o
+
+.PHONY : src/poincare.o
+
+# target to build an object file
+src/poincare.c.o:
+	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.o
+.PHONY : src/poincare.c.o
+
+src/poincare.i: src/poincare.c.i
+
+.PHONY : src/poincare.i
+
+# target to preprocess a source file
+src/poincare.c.i:
+	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.i
+.PHONY : src/poincare.c.i
+
+src/poincare.s: src/poincare.c.s
+
+.PHONY : src/poincare.s
+
+# target to generate assembly for a file
+src/poincare.c.s:
+	$(MAKE) -f CMakeFiles/RTBP_PeriodicOrbitsL3.dir/build.make CMakeFiles/RTBP_PeriodicOrbitsL3.dir/src/poincare.c.s
+.PHONY : src/poincare.c.s
 
 src/poincareSections.o: src/poincareSections.c.o
 
@@ -438,12 +438,12 @@ help:
 	@echo "... src/equPoints.o"
 	@echo "... src/equPoints.i"
 	@echo "... src/equPoints.s"
-	@echo "... src/hillsRegions.o"
-	@echo "... src/hillsRegions.i"
-	@echo "... src/hillsRegions.s"
 	@echo "... src/orbitIntegration.o"
 	@echo "... src/orbitIntegration.i"
 	@echo "... src/orbitIntegration.s"
+	@echo "... src/poincare.o"
+	@echo "... src/poincare.i"
+	@echo "... src/poincare.s"
 	@echo "... src/poincareSections.o"
 	@echo "... src/poincareSections.i"
 	@echo "... src/poincareSections.s"
